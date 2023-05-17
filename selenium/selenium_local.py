@@ -1,8 +1,9 @@
+import config
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-import config
 
 
 def test_click_without_log(url: str):
